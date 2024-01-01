@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Crete+Round&family=Lilita+One&display=swap');
+
+body{
+    margin: 0;
+}
+.nav{
+    background: #252B48;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Crete Round', serif;
+    /* font-family: 'Lilita One', sans-serif;  */
+}
+
+.nav-left a img{
+    width: 80px;
+    height: 80px;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 25px;
+    font-size: 25px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 25px;
+}
