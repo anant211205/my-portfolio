@@ -6,6 +6,7 @@ import { AiOutlineLinkedin , AiOutlineGithub , AiOutlineInstagram } from "react-
 import logo from "../assets/logo.png" ;
 
 const Navbar = () => {
+
   return (
     <>
         <header className="nav">
