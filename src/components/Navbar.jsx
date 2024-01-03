@@ -15,6 +15,8 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
 const NavContent = () => {
 
     const[navbarOpaque , isNavbarOpaque] = useState(0);

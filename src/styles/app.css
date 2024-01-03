@@ -1,7 +1,9 @@
 @import "contact";
 @import "home"; 
 @import "navbar" ;
- 
+@import "footer" ; 
+@import "about" ;
+
 *{
     margin: 0%; 
     padding: 0%;
