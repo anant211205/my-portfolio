@@ -4,7 +4,7 @@ import "../styles/contact.css"
 const Contact = () => {
   return (
     <>
-        <form action="/submit" method="post">
+        <form action="/submit" method="post" id='contact'>
             
             <div className="contact-me">
                 <div className="contact">

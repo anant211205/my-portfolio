@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Crete+Round&family=Lilita+One&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-    background: #252B48;
-   
-}
 .nav{
-    background-color: transparent;
-    align-items: center;
-    justify-content: flex-start;
-    /* z-index: 2; */
+    /* background-color: transparent; */
+    /* align-items: center;
+    display: flex; */
+    justify-content: space-evenly;
+    z-index: 60;
     width: 100%;
+    height: 80px;
     top: 0;
+    position: sticky;
+    transition: background-color 0.4s ease-in-out;
     /* position: fixed ; */
 }
 .nav-items{
@@ -22,6 +20,7 @@ body{
     /* font-family: 'Cinzel', serif; */
     font-family: 'Crete Round', serif;
     /* font-family: 'Lilita One', sans-serif;  */
+
 }
 
 .nav-left a img{
@@ -35,8 +34,13 @@ body{
     margin: 25px;
     font-size: 25px;
     transition: color 0.3s ease-in-out;
-    /* transition : 0.3s ease-in-out ; */
+    cursor: pointer;
 }
+
+.opaque {
+    background-color: #1c1f30;
+    backdrop-filter: blur(8px) ;
+  }
 
 .social-icons a{
     text-decoration: none;
@@ -45,6 +49,11 @@ body{
     font-size: 25px;
 }
 
+.social-icons a:hover{
+    color: #efd89f;
+    transition: color 0.3s ease-in-out;
+}
+
 .nav-right a:hover{
-    color: #F5E8C7 ;
+    color: #efd89f ; 
 }

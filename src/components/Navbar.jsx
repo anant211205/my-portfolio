@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "../styles/navbar.css"
 import { AiOutlineLinkedin , AiOutlineGithub , AiOutlineInstagram } from "react-icons/ai";
 // import { AiOutlineMenu } from "react-icons/ai";
@@ -9,7 +9,35 @@ const Navbar = () => {
 
   return (
     <>
-        <header className="nav">
+        <NavContent/>
+    </>
+  )
+}
+
+export default Navbar
+const NavContent = () => {
+
+    const[navbarOpaque , isNavbarOpaque] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            isNavbarOpaque(window.scrollY) ;
+        } ;
+        window.addEventListener('scroll' , handleScroll) ;
+
+      return () => {
+        window.removeEventListener('scroll' , handleScroll) ;
+      }
+    }, [])
+
+
+    // const scrollToSection = (className) => {
+        
+    // }
+
+    return(
+    <>
+        <header className={`nav ${navbarOpaque ? "opaque" : "" }`}>
             <div className="nav-items">
                 <div className="nav-left">
                     <a href="#home">
@@ -32,11 +60,8 @@ const Navbar = () => {
                             <AiOutlineLinkedin className='icon'/>
                         </a>
                     </div>
-                
             </div>
         </header>
     </>
-  )
+    )
 }
-
-export default Navbar
