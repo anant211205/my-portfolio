@@ -1,10 +1,19 @@
 import React from 'react'
 import "../styles/contact.css" 
+// import { useState } from 'react'
 
 const Contact = () => {
+
+    // const [submit, setSubmit] = useState(false)
+
+    function handleClick (){
+            alert("submited")
+    }
+
   return (
     <>
-        <form action="/submit" method="post" id='contact'>
+    <div id="contact">
+        <form action="/submit" method="post">
             
             <div className="contact-me">
                 <div className="contact">
@@ -18,9 +27,10 @@ const Contact = () => {
             <input type="text" id='email' placeholder='Your Email' name='email'/><br />
             <label htmlFor="message">Message</label><br />
             <input type="text" id='message' placeholder='your message' name='mesaage'/><br />
-            <button type="button" id='send'>Submit</button>
+            <button type="button" id='send' onClick={handleClick}>Submit</button>
             </div>
         </form>
+    </div>
     </>
   )
 }
