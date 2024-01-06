@@ -7,10 +7,12 @@ import { AiOutlineLinkedin} from "react-icons/ai";
 function EmailButton()  {
 
     const con = content.map(cont => 
-            <span key={cont.id}>
-                {cont.footContent} <br />
-                &copy;{cont.copyright}
-            </span>
+            <>
+            <h2 key={cont.id}>
+                {cont.footContent}
+            </h2>
+            <p>&copy;{cont.copyright}</p>
+            </>
         ) 
     return(
         <>
@@ -23,21 +25,17 @@ const Footer = () => {
 
   return (
     <>
-    <div className='footer'>
+    <footer>
         <div className="logo">
             <img src={logo} alt="logo" />
+            <EmailButton/>  
         </div>
-            <div className="content">
-                <EmailButton/>
-
-                <div className="content-right">
-                    <a href="https://www.linkedin.com/in/anant-kumar-07b53b24a/" target='blank'>
-                        <AiOutlineLinkedin />
-                    </a>
-            </div>
+        <div className="content-right">
+            <a href="https://www.linkedin.com/in/anant-kumar-07b53b24a/" target='blank'>
+                <AiOutlineLinkedin />
+            </a>
         </div>
-        
-    </div>
+    </footer>
     </>
   )
 }

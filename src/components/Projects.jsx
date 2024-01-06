@@ -11,10 +11,18 @@ const Projects = () => {
   return (
     <>
         <div id="projects">
-            <h2>MY PROJECTS</h2>
+            <h2 className='heading'>MY PROJECTS</h2>
             <section>
-                <article>
-                    <Carousel>
+                <article className='carousel'>
+                    <Carousel
+                    showArrows={false}
+                    showIndicators={false}
+                    showStatus={false}
+                    showThumbs={false}
+                    interval={2000}
+                    infiniteLoop={true}
+                    autoPlay={true}
+                    >
                         {
                             data.projects.map(i => (
                                 <div key={i.title} className='workitem'>

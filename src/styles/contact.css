@@ -1,62 +1,68 @@
+#contact{
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-me{
+    background-color: #efd89f;
+    width: 100%;
+    height: 100%;
+}
+
 form{
-    background-color: #252B48;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 80px;
-    position: relative;
-}
-
-label{
-    font-size: 20px;
-    font-family: 'Crete Round', serif;
-}
-
-input{
-    width: 100%;
-    height: 4vh;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    border-radius: 3px;
-    background: #F5E8C7;
-    border-style: none;
-}
-
-textarea{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.contact-me{
-    background-color: #818FB4;
-    padding: 20px;
-    width: 40%;
-    height: 40%;
-    border-radius: 15px;
-}
-
-button{
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    border-style: none;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-button:hover{
-    background-color: #bdcfff ;
-    border-color: beige;
-    color: rgb(0, 0, 0);
-    
 }
 
 .title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    margin-bottom: 25px;
-    text-shadow: 1px 2px 2px black;
-    font-family: 'Crete Round', serif;
+    text-align: center;
+    font-size: 3rem;
+    /* font-family:'Times New Roman', Times, serif; */
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 5rem;
+}
+
+input, button {
+    padding: 0.9rem;
+    width: 50%;
+    outline: none;
+    font: 0.9rem;
+    margin: 1rem;
+    border: none;
+    /* border-color: cadetblue; */
+    box-shadow: 0 2px rgb(152, 112, 0);
+
+}
+
+button{
+    cursor: pointer;
+    background-color: burlywood;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: tan;
+
+}
+
+aside{
+    width: 100%;
+    height: 100%;
+    background-color: #efd89f;
+    display: grid;
+    place-items: center;
+    
+}
+img{
+    width: 55%;
+    height: 55%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.408));
+    
 }

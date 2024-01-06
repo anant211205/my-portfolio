@@ -5,7 +5,7 @@
     /* align-items: center;
     display: flex; */
     justify-content: space-evenly;
-    z-index: 60;
+    z-index: 1;
     width: 100%;
     height: 80px;
     top: 0;
@@ -28,12 +28,12 @@
     height: 80px;
 }
 .nav-right{
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 .nav-right a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: 25px;
     font-size: 25px;
     transition: color 0.3s ease-in-out;
@@ -53,10 +53,10 @@
 }
 
 .social-icons a:hover{
-    color: #efd89f;
+    color: #646056;
     transition: color 0.3s ease-in-out;
 }
 
 .nav-right a:hover{
-    color: #efd89f ; 
+    color: #df9c00 ; 
 }

@@ -4,18 +4,19 @@
             "title" : "RELEVENT" ,
             "description" : "Designed and developed a dynamic event management site using React, showcasing expertise in front-end technologies. Implemented a user-friendly interface with React components for seamless navigation",
             "techStack" : "React.js • HTML • CSS",
-            "imgSrc": ""
+            "imgSrc": "https://imgur.com/LxPAtmH.png"
         },
         {
             "title" : "CRISIS AID 360",
             "description" :"Me with my team Developed a groundbreaking solution for disaster management during Smart India Hackathon (SIH) Internal Round ",
             "techStack" : "React.js • Express.js • Node.js • MongoDB",
-            "imgSrc" : "project2.png"
+            "imgSrc" : "https://imgur.com/fO3V4KW.png"
         },
         {
             "title" : "CHATBOT",
-            "description" : "Engineered a sophisticated chatbot solution using Python, showcasing knowledge in natural language processing (NLP) and machine learning Utilized Python libraries such as NLTK , tensorflow , numpy for natural language processing tasks ",
-            "techStack": "python • Numpy • tensorflow "
+            "description" : "Engineered a sophisticated chatbot solution using Python, showcasing knowledge in natural language processing (NLP) and machine learning Utilized Python libraries such as NLTK , tensorflow , numpy for natural language processing tasks , runs on terminal",
+            "techStack": "python • Numpy • tensorflow ",
+            "imgSrc": "https://imgur.com/4NgdMmq.png"
         }
     ]
 }

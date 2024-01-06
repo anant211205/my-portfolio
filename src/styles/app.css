@@ -1,8 +1,6 @@
-@import "contact";
-@import "home"; 
-@import "navbar" ;
-@import "footer" ; 
-@import "about" ;
+
+@import "contact" ;
+@import "footer" ;
 
 *{
     margin: 0%; 
@@ -15,6 +13,6 @@ a{
 }
 body{
     /* text-decoration: none; */
-    background-color: #252B48;
+    background-color: #efd89f;
     overflow-x: hidden;
 }
