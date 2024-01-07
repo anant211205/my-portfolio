@@ -1,6 +1,6 @@
 
-@import "contact" ;
-@import "footer" ;
+/* @import "contact" ;
+@import "footer" ; */
 
 *{
     margin: 0%; 
@@ -13,6 +13,7 @@ a{
 }
 body{
     /* text-decoration: none; */
-    background-color: #efd89f;
+    background-color: #a89d81;
     overflow-x: hidden;
+    /* margin-top: 80px; */
 }

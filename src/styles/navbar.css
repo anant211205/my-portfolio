@@ -5,11 +5,11 @@
     /* align-items: center;
     display: flex; */
     justify-content: space-evenly;
-    z-index: 1;
+    z-index: 6000;
     width: 100%;
     height: 80px;
-    top: 0;
-    position: sticky;
+    top: 0%;
+    position:fixed;
     transition: background-color 0.4s ease-in-out;
     /* position: fixed ; */
 }
@@ -33,30 +33,32 @@
 
 .nav-right a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(65, 74, 81);
     margin: 25px;
-    font-size: 25px;
+    font-size: 2rem;
     transition: color 0.3s ease-in-out;
     cursor: pointer;
+    align-items: flex-start;
 }
 
 .opaque {
-    background-color: #1c1f30;
+    background-color: #000000;
     backdrop-filter: blur(8px) ;
+    /* color: aliceblue; */
   }
 
 .social-icons a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(65, 74, 81);
     margin: 10px;
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 .social-icons a:hover{
-    color: #646056;
+    color: #b3923d;
     transition: color 0.3s ease-in-out;
 }
 
 .nav-right a:hover{
-    color: #df9c00 ; 
+    color: #b3923d ; 
 }

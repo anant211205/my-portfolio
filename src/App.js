@@ -4,7 +4,7 @@ import "../src/styles/app.css" ;
 import { Toaster } from "react-hot-toast";
 // import Toaster from "react-hot-toast";
 // import About from "./components/About";
-// import Home from "./components/Home";
+import Home from "./components/Home";
 import Footer from "./components/Footer";
 // import Projects from "./components/Projects";
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <Home/> */}
+      <Home/>
       {/* <About/> */}
       {/* <Projects/> */}
       <Contact/>

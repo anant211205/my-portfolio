@@ -33,23 +33,25 @@ const NavContent = () => {
     }, [])
 
 
-    // const scrollToSection = (className) => {
-        
+    // const scrollToSection = (id) => {
+    //     if(id = "home"){
+    //         window.scrollTo({top : 0 , behavior:'smooth'})
+    //     }
     // }
 
     return(
     <>
         <header className={`nav ${navbarOpaque ? "opaque" : "" }`}>
             <div className="nav-items">
-                <div className="nav-left">
-                    <a href="#home">
-                        <img src={logo} alt="logo"/>
-                    </a>
-                </div>
-                <div className="nav-right">
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
+                    <div className="nav-left">
+                        <a href="#home">
+                            <img src={logo} alt="logo"/>
+                        </a>
+                    </div>
+                    <div className="nav-right">
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
                     </div>
                     <div className="social-icons">
                         <a href="https://www.instagram.com/__4n4nt/" target='blank'> 

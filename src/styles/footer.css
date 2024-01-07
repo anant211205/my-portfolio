@@ -1,7 +1,7 @@
 footer{
     min-height: 100px;
     background-color: black;
-    color:bisque ;
+    color: rgb(114, 114, 114);
     padding: 0.3rem ;
     display: grid;
     grid-template-columns: 10fr 3fr 1fr;
@@ -32,7 +32,7 @@ footer{
 
 .content-right a{
     text-decoration: none;
-    color: bisque;
+    color: rgb(114, 114, 114);
     font-size: 2rem;
     margin-left: 15rem;
 }
