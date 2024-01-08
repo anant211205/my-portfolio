@@ -13,30 +13,28 @@ const Projects = () => {
         <div id="projects">
             <h2 className='heading'>MY PROJECTS</h2>
             <section>
-                <article className='carousel'>
                     <Carousel
                     showArrows={false}
                     showIndicators={false}
                     showStatus={false}
                     showThumbs={false}
-                    interval={2000}
+                    interval={1500}
                     infiniteLoop={true}
                     autoPlay={true}
+                    stopOnHover={true}
                     >
                         {
                             data.projects.map(i => (
                                 <div key={i.title} className='workitem'>
-                                    <img src={i.imgSrc} alt={i.title} />
-                                    <aside>
-                                        <h3>{i.title}</h3>
-                                        <p>{i.description}</p>
-                                        <p>{i.techStack}</p>
-                                    </aside>
+                                    <img className='project-img' src={i.imgSrc} alt={i.title} />
+                                    
+                                        <h3 className='project-title'>{i.title}</h3>
+                                        {/* <p className='desc'>{i.description}</p>
+                                        <p className='desc'>{i.techStack}</p> */}
                                 </div>
                             ))
                         }
                     </Carousel>
-                </article>
             </section>
         </div>
     </>
