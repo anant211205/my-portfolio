@@ -1,0 +1,46 @@
+.card{
+    margin: auto;
+    width: 70%
+}
+
+.techSrc{
+    /* width: 100%; */
+    height: 300px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    /* object-fit:fill ; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3%;
+    background-color: rgba(50, 18, 18, 0.718);
+    margin: 10px;
+}
+
+.techimage{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.349));
+}
+
+.used{
+    display: flex;
+}
+
+.used span{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.stack{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Crete Round', serif;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.351));
+}

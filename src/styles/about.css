@@ -1,0 +1,25 @@
+#about{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading-about{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Crete Round', serif;
+    filter: drop-shadow(0 1px 5px  rgba(54, 50, 24, 0.503));
+}
+
+
+.desc{
+    font-size: 20px;
+    font-family: 'Crete Round', serif;
+    font-weight: 200;
+    text-justify:inter-ideograph;
+    word-spacing: 10px;
+    letter-spacing: 0.3px;
+}

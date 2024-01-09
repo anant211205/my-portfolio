@@ -7,8 +7,10 @@
 .heading{
     padding-right: 5rem;
     margin-top: 20rem;
-    font-size: 3rem;
-    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.486);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Crete Round', serif;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.351));
 }
 
 .project-img{
