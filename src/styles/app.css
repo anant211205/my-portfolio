@@ -1,0 +1,19 @@
+
+/* @import "contact" ;
+@import "footer" ; */
+
+*{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /* text-decoration: none; */
+    background-color: #a89d81;
+    overflow-x: hidden;
+    /* margin-top: 80px; */
+}

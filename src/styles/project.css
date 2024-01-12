@@ -1,0 +1,57 @@
+#projects{
+    /* background-color: aliceblue; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.heading{
+    padding-right: 5rem;
+    margin-top: 20rem;
+    font-size: 3rem;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.486);
+}
+
+.project-img{
+    object-fit:fill;
+    width: 5rem;
+    height: 300px;
+    border-radius: 10px;
+    /* z-index: -1; */
+    /* padding: 2rem; */
+
+}
+#projects section{
+    align-self: right;
+    width: 70%;
+    /* background-color: rgb(115, 105, 105); */
+    /* height: 100vh; */
+    padding-bottom: 40px;
+}
+
+/* #projects article{
+    background-color: aqua;
+} */
+/* 
+.workitem aside{
+    align-items: flex-start;
+    background-color: #fff;
+    width: 50%;
+    height: 50%;
+} */
+
+.workitem{
+    /* overflow-y: auto;s */
+    margin: auto;
+    /* align-items: flex-start; */
+    /* display: flex; */
+    /* box-shadow: 0 0 1px 1px black; */
+}
+.workitem h3{
+    padding: 1rem;
+    font-size: 25px;
+}
+
+.workitem p{
+    font-size: 15px;
+    padding: 10px;
+}
