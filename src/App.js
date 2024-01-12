@@ -5,7 +5,7 @@ import { Toaster } from "react-hot-toast";
 import About from "./components/About";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-// import Projects from "./components/Projects";
+import Projects from "./components/Projects";
 import Card from "./components/Card";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Home/>
       <About/>
       <Card/>
-      {/* <Projects/> */}
+      <Projects/>
       <Contact/>
       <Footer/>
       <Toaster position="top-center"/>
